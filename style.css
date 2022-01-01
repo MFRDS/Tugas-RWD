@@ -1,0 +1,130 @@
+.jumbotron {
+  padding: 5rem 1rem;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 2px 2px 4px;
+}
+
+#About {
+  padding: 2rem 1rem;
+  padding-top: 4rem;
+  background-color: #727b86;
+  color: azure;
+}
+
+#Project {
+  padding: 6rem 1 rem;
+  padding-top: 4rem;
+  background-color: #a1bcdd;
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Lobster);
+}
+
+.purchase > p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+  color: var(--light-black);
+}
+
+.card-body .pricing {
+  background: rgba(208, 241, 241, 0.199);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1 {
+  font-size: 5vmin;
+  padding: 1em 0.5em;
+}
+
+.social-icons {
+  padding: 2rem 0 0 0;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #546d6d, #748f88);
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 0.5rem;
+  transition: 0.3s;
+}
+
+#Contact {
+  padding: 75px 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+#Contact .row {
+  align-items: center;
+}
+
+#Contact input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin: 15px 0;
+}
+
+.contact_form-container button {
+  border: none;
+  background-color: #6bd1bd;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 45px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact_img-box {
+  display: flex;
+  align-items: center;
+}
+
+.contact_img-box img {
+  width: 100%;
+}
+
+#Contact h2 {
+  font-size: 26px;
+  color: #010103;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 35px;
+}
